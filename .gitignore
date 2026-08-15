@@ -1,0 +1,60 @@
+# dependencies
+node_modules/
+
+# build outputs
+.next/
+out/
+dist/
+build/
+expo/
+.pnpm-store/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.venv-linux/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# flutter / dart
+.dart_tool/
+.windows/
+.macos/
+.linux/
+
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# agent tooling config
+.agents/
+.claude/
+.claude-flow/
+.codex/
+.cursor/
+.opencode/
+.superpowers/
+.swarm/
+.planning/
+.vercel/
+.vscode/
+.idea/
+.playwright-mcp/
+graphify-out/
+
+# browser profiles & stray downloads
+.edge-profile/
+.chrome-profile/
+.chrome-profile-2/
+Documents/
+
+# logs & misc
+*.log
+*.bak
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
