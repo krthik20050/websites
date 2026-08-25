@@ -1,0 +1,2 @@
+export const metadata = { title: "Contact information" };
+export default function Page(){ return <div className="max-w-[800px] mx-auto px-4 lg:px-8 py-8"><h1 className="text-2xl font-bold">Contact information</h1><p className="text-sm text-zinc-600 mt-2">Demo policy page - every footer link lands here (no 404). Replace with real policy before launch. We respect your privacy; demo store uses localStorage for cart only, no tracking.</p></div> }
