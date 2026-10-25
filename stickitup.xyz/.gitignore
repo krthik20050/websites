@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+artifacts/
+public/ar-prepared/
+public/poster-assets/
+
+.vercel
+.env*
